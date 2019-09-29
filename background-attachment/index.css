@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.list {
+  position: relative;
+  width: 100%;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.list-item {
+  padding: 1em;
+  text-indent: 2em;
+  background-color: #fff;
+}
+
+.ad-placeholder {
+  position: relative;
+  display: block;
+  height: 300px;
+  background-color: transparent;
+}
+
+.btn {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  padding: .5em 2em;
+  background: brown;
+  color: #fff;
+  text-align: center;
+}
